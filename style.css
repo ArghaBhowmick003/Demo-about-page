@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(./images/BG.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#details {
+    color: rgb(171, 171, 171);
+    font-size: medium;
+    text-align: justify;
+
+}
+
+#details::first-letter {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.intro {
+    color: rgb(171, 171, 171);
+    text-wrap: nowrap;
+    font-size: 2.5rem;
+    font-weight: bold;
+    word-spacing: 10px;
+}
+
+.name {
+    color: rgb(224, 224, 224);
+    text-wrap: nowrap;
+    font-size: 2.5rem;
+    font-weight: bold;
+    word-spacing: 10px;
+}
+
+.intro,
+.name {
+    font-weight: 900;
+}
+
+.about {
+    color: rgb(224, 224, 224);
+    font-weight: 900;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    align-items: flex-start;
+}
+
+#pic {
+    border-radius: 70px;
+    height: 250px;
+}
+
+.margin {
+    max-width: 700px;
+    
+}
+
+.header {
+    line-height: 40px;
+}
+.shade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000086;
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(5px);
+}
